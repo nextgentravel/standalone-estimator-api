@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 var Intl = require('intl');
-const prismicData = require('./prismic-email-notifications.json')
-const prismicKeywords = require('./prismic-email-keywords.json')
+const prismicData = require('./../../prismic-email-notifications.json')
+const prismicKeywords = require('./../../prismic-email-keywords.json')
 // Note: you only need to require the locale once
 require('intl/locale-data/jsonp/en-CA.js');
 require('intl/locale-data/jsonp/fr-CA.js');

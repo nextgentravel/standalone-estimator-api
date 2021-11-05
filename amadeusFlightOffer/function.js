@@ -1,4 +1,4 @@
-import { URLSearchParams } from 'url';
+const { URLSearchParams } = require('url')
 
 const fetch = require('node-fetch');
 global.Headers = fetch.Headers;

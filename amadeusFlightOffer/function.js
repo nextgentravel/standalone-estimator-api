@@ -130,7 +130,11 @@ module.exports = async function (requestBody) {
                         }
                     };
                 })
-                .catch(error => console.log('error', error));
+                .catch(error => {
+                    return {
+                        body: error
+                    };
+                });
         })
         .catch(error => {
             return {

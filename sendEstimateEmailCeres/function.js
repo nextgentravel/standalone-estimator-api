@@ -23,7 +23,6 @@ var englishNumberFormat = Intl.NumberFormat('en-CA', {
 });
 
 const addCommaToPlaceName = (placeName) => {
-  console.log(placeName)
   let province = placeName.slice(-2)
   let cityName = placeName.slice(0, -3)
   return `${cityName}, ${province}`
@@ -65,7 +64,6 @@ const travelCategory = (input, lang) => {
 
 const travelMode = (input, lang) => {
   if (lang === 'en') {
-    console.log(input)
     switch (input) {
       case 'flight':
         return prismicKeywords.travelMode.en.flight

@@ -317,4 +317,6 @@ module.exports = async function (requestBody) {
         response.approver = err;
       });
 
+      return response;
+
 }

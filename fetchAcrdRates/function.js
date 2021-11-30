@@ -1,11 +1,10 @@
 const AWS = require('aws-sdk');
 const fs = require('fs');
-const parse = require('csv-parse/sync').parse
+const csv = require('csvtojson');
+
 const path = require('path')
 const alasql = require('alasql')
 const { DateTime, Interval, Info } = require('luxon') 
-
-const inputData = fs.readFileSync(path.resolve(__dirname, 'rates.csv'), 'utf8');
 
 function getRateForDate(date, ratesInRange) {
     let givenDate = new Date(date)
@@ -55,7 +54,14 @@ module.exports = async function (req) {
         province: body.province,
     }
 
-    let data = await parse(inputData, { columns: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code'] });
+    const data = await csv(
+        {
+            noheader: false,
+            headers: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code']
+        }
+    ).fromFile(path.resolve(__dirname, 'rates.csv'));
+
+    // parse(inputData, { columns: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code'] });
     let ratesInRange = await alasql(`SELECT * FROM ? WHERE city = ? AND province = ? ORDER BY start_date`, [data, place.city, place.province]);
     let dates = {
         start: body.startDate,
@@ -64,7 +70,13 @@ module.exports = async function (req) {
 
     let result = calculatorRatesForRange(dates.start, dates.end, ratesInRange)
 
+    const total = result.map(item => item.rate.max_rate).reduce((previous, current) => parseInt(previous) + parseInt(current), 0);
+    console.log(total)
+
     return {
-        body: result,
+        body: {
+            ratesByDay: result,
+            total
+        },
     }
 }

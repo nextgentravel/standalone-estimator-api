@@ -6,6 +6,7 @@ module.exports = async function (context, req) {
   let result = await fetchAcrdRates(req);
 
   context.res = {
-    body: result.body
+    body: result.body,
+    status: result.status
   };
 }

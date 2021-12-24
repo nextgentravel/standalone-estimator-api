@@ -46,36 +46,44 @@ const calculatorRatesForRange = (departureDate, returnDate, rates) => {
 }
 
 module.exports = async function (req) {
-    let body = req.body
+    try {
+        let body = req.body
 
-    let place = {
-        city: body.city,
-        province: body.province,
-    }
-
-    const data = await csv(
-        {
-            noheader: false,
-            headers: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code']
+        let place = {
+            city: body.city,
+            province: body.province,
         }
-    ).fromFile(path.resolve(__dirname, 'rates.csv'));
-
-    // parse(inputData, { columns: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code'] });
-    let ratesInRange = await alasql(`SELECT * FROM ? WHERE city = ? AND province = ? ORDER BY start_date`, [data, place.city, place.province]);
-    let dates = {
-        start: body.startDate,
-        end: body.endDate,
-    }
-
-    let result = calculatorRatesForRange(dates.start, dates.end, ratesInRange)
-
-    const total = result.map(item => item.rate.max_rate).reduce((previous, current) => parseInt(previous) + parseInt(current), 0);
-    console.log(total)
-
-    return {
-        body: {
-            ratesByDay: result,
-            total
-        },
+    
+        const data = await csv(
+            {
+                noheader: false,
+                headers: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code']
+            }
+        ).fromFile(path.resolve(__dirname, 'rates.csv'));
+    
+        let ratesInRange = await alasql(`SELECT * FROM ? WHERE city = ? AND province = ? ORDER BY start_date`, [data, place.city, place.province]);
+        let dates = {
+            start: body.startDate,
+            end: body.endDate,
+        }
+    
+        let result = calculatorRatesForRange(dates.start, dates.end, ratesInRange)
+    
+        const total = result.map(item => item.rate.max_rate).reduce((previous, current) => parseInt(previous) + parseInt(current), 0);
+    
+    
+        return {
+            body: {
+                ratesByDay: result,
+                total
+            },
+        }
+    } catch (error) {
+        return {
+            body: {
+                error
+            },
+            status: 500
+        }
     }
 }

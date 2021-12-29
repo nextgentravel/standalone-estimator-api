@@ -5,7 +5,7 @@ module.exports = async function (context, req) {
 
   console.log(response)
 
-  return {
+  context.res =  {
     body: JSON.stringify(response),
     status: response.statusCode,
   };

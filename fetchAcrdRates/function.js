@@ -59,7 +59,7 @@ module.exports = async function (req) {
                 noheader: false,
                 headers: ['year','start_date','city','province','country_english','country_french','country_code','max_rate','currency_code']
             }
-        ).fromFile(path.resolve(__dirname, 'rates.csv'));
+        ).fromFile(path.resolve(__dirname, 'rdates.csv'));
     
         let ratesInRange = await alasql(`SELECT * FROM ? WHERE city = ? AND province = ? ORDER BY start_date`, [data, place.city, place.province]);
         let dates = {
@@ -77,6 +77,7 @@ module.exports = async function (req) {
                 ratesByDay: result,
                 total
             },
+            status: 200
         }
     } catch (error) {
         return {

@@ -3,7 +3,9 @@ const csv = require('csvtojson');
 
 const path = require('path')
 const alasql = require('alasql')
-const { DateTime, Interval, Info } = require('luxon') 
+const { DateTime, Interval, Info } = require('luxon')
+
+const suburbsToCitiesMap = require('./suburbsToCitiesMap.json');
 
 function getRateForDate(date, ratesInRange) {
     let givenDate = new Date(date)
@@ -53,7 +55,21 @@ module.exports = async function (req) {
             city: body.city,
             province: body.province,
         }
-    
+
+        // check if place is a suburb of a bigger city with master rate.
+
+        let check = {
+            original: place
+        }
+
+        let checkForSuburb = suburbsToCitiesMap.filter(city => (city.suburbName === place.city && city.province === place.province))
+
+        if (checkForSuburb.length === 1) {
+            place.city = checkForSuburb[0].suburbOf
+        }
+
+        check.final = place;
+
         const data = await csv(
             {
                 noheader: false,
@@ -62,6 +78,7 @@ module.exports = async function (req) {
         ).fromFile(path.resolve(__dirname, 'rates.csv'));
     
         let ratesInRange = await alasql(`SELECT * FROM ? WHERE city = ? AND province = ? ORDER BY start_date`, [data, place.city, place.province]);
+        
         let dates = {
             start: body.startDate,
             end: body.endDate,
@@ -70,7 +87,6 @@ module.exports = async function (req) {
         let result = calculatorRatesForRange(dates.start, dates.end, ratesInRange)
     
         const total = result.map(item => item.rate.max_rate).reduce((previous, current) => parseInt(previous) + parseInt(current), 0);
-    
     
         return {
             body: {

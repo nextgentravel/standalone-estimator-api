@@ -66,6 +66,7 @@ module.exports = async function (req) {
 
         if (checkForSuburb.length === 1) {
             place.city = checkForSuburb[0].suburbOf
+            place.province = checkForSuburb[0].queryProvince
         }
 
         check.final = place;

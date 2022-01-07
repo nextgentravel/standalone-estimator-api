@@ -33603,228 +33603,6 @@ const citiesList = [{
         ]
     },
     {
-        "id": "ChIJA7DM_retYlMRVLM2ekn0fVg",
-        "label": "Grand Forks, BC",
-        "type": "city",
-        "searchTerm": "Grand Forks, BC",
-        "acrdName": "Grand Forks BC",
-        "provinceCode": "BC",
-        "cityName": "Grand Forks",
-        "iataCode": "YVR",
-        "cityCode": "YVR",
-        "airports": [{
-                "type": "location",
-                "subType": "AIRPORT",
-                "name": "INTERNATIONAL",
-                "detailedName": "VANCOUVER/BC/CA:INTERNATIONAL",
-                "timeZoneOffset": "-07:00",
-                "iataCode": "YVR",
-                "geoCode": {
-                    "latitude": 49.195,
-                    "longitude": -123.1792
-                },
-                "address": {
-                    "cityName": "VANCOUVER",
-                    "cityCode": "YVR",
-                    "countryName": "CANADA",
-                    "countryCode": "CA",
-                    "stateCode": "BC",
-                    "regionCode": "NAMER"
-                },
-                "distance": {
-                    "value": 345,
-                    "unit": "KM"
-                },
-                "analytics": {
-                    "flights": {
-                        "score": 31
-                    },
-                    "travelers": {
-                        "score": 24
-                    }
-                },
-                "relevance": 8.95488,
-                "frenchLabel": "Aéroport international de Vancouver",
-                "englishLabel": "Vancouver International"
-            },
-            {
-                "type": "location",
-                "subType": "AIRPORT",
-                "name": "CALGARY INTL",
-                "detailedName": "CALGARY/AB/CA:CALGARY INTL",
-                "timeZoneOffset": "-06:00",
-                "iataCode": "YYC",
-                "geoCode": {
-                    "latitude": 51.12945,
-                    "longitude": -114.0131
-                },
-                "address": {
-                    "cityName": "CALGARY",
-                    "cityCode": "YYC",
-                    "countryName": "CANADA",
-                    "countryCode": "CA",
-                    "stateCode": "AB",
-                    "regionCode": "NAMER"
-                },
-                "distance": {
-                    "value": 393,
-                    "unit": "KM"
-                },
-                "analytics": {
-                    "flights": {
-                        "score": 21
-                    },
-                    "travelers": {
-                        "score": 17
-                    }
-                },
-                "relevance": 5.41516,
-                "frenchLabel": "Aéroport international de Calgary",
-                "englishLabel": "Calgary International"
-            },
-            {
-                "type": "location",
-                "subType": "AIRPORT",
-                "name": "INTERNATIONAL",
-                "detailedName": "KELOWNA/BC/CA:INTERNATIONAL",
-                "timeZoneOffset": "-07:00",
-                "iataCode": "YLW",
-                "geoCode": {
-                    "latitude": 49.95612,
-                    "longitude": -119.3778
-                },
-                "address": {
-                    "cityName": "KELOWNA",
-                    "cityCode": "YLW",
-                    "countryName": "CANADA",
-                    "countryCode": "CA",
-                    "stateCode": "BC",
-                    "regionCode": "NAMER"
-                },
-                "distance": {
-                    "value": 123,
-                    "unit": "KM"
-                },
-                "analytics": {
-                    "flights": {
-                        "score": 3
-                    },
-                    "travelers": {
-                        "score": 2
-                    }
-                },
-                "relevance": 2.58053,
-                "frenchLabel": "Aéroport international de Kelowna",
-                "englishLabel": "Kelowna International"
-            },
-            {
-                "type": "location",
-                "subType": "AIRPORT",
-                "name": "VICTORIA INTL",
-                "detailedName": "VICTORIA/BC/CA:VICTORIA INTL",
-                "timeZoneOffset": "-07:00",
-                "iataCode": "YYJ",
-                "geoCode": {
-                    "latitude": 48.64695,
-                    "longitude": -123.4258
-                },
-                "address": {
-                    "cityName": "VICTORIA",
-                    "cityCode": "YYJ",
-                    "countryName": "CANADA",
-                    "countryCode": "CA",
-                    "stateCode": "BC",
-                    "regionCode": "NAMER"
-                },
-                "distance": {
-                    "value": 367,
-                    "unit": "KM"
-                },
-                "analytics": {
-                    "flights": {
-                        "score": 4
-                    },
-                    "travelers": {
-                        "score": 2
-                    }
-                },
-                "relevance": 1.18388,
-                "frenchLabel": "Aéroport international de Victoria",
-                "englishLabel": "Victoria International"
-            },
-            {
-                "type": "location",
-                "subType": "AIRPORT",
-                "name": "WEST KOOTENAY REGIONAL",
-                "detailedName": "CASTLEGAR/BC/CA:WEST KOOTENAY",
-                "timeZoneOffset": "-07:00",
-                "iataCode": "YCG",
-                "geoCode": {
-                    "latitude": 49.29639,
-                    "longitude": -117.6325
-                },
-                "address": {
-                    "cityName": "CASTLEGAR",
-                    "cityCode": "YCG",
-                    "countryName": "CANADA",
-                    "countryCode": "CA",
-                    "stateCode": "BC",
-                    "regionCode": "NAMER"
-                },
-                "distance": {
-                    "value": 66,
-                    "unit": "KM"
-                },
-                "analytics": {
-                    "flights": {
-                        "score": 1
-                    },
-                    "travelers": {
-                        "score": 0
-                    }
-                },
-                "relevance": 1.01095,
-                "frenchLabel": "Castlegar, West Kootenay Regional",
-                "englishLabel": "Castlegar, West Kootenay Regional"
-            },
-            {
-                "type": "location",
-                "subType": "AIRPORT",
-                "name": "TRAIL",
-                "detailedName": "TRAIL/BC/CA",
-                "timeZoneOffset": "-07:00",
-                "iataCode": "YZZ",
-                "geoCode": {
-                    "latitude": 49.05695,
-                    "longitude": -117.6081
-                },
-                "address": {
-                    "cityName": "TRAIL",
-                    "cityCode": "YZZ",
-                    "countryName": "CANADA",
-                    "countryCode": "CA",
-                    "stateCode": "BC",
-                    "regionCode": "NAMER"
-                },
-                "distance": {
-                    "value": 61,
-                    "unit": "KM"
-                },
-                "analytics": {
-                    "flights": {
-                        "score": 1
-                    },
-                    "travelers": {
-                        "score": 0
-                    }
-                },
-                "relevance": 0.86658,
-                "frenchLabel": "Trail",
-                "englishLabel": "Trail"
-            }
-        ]
-    },
-    {
         "id": "ChIJl5v7ZUmRkFMRCWSeDMZrcmA",
         "label": "Grande Prairie, AB",
         "type": "city",
@@ -66586,12 +66364,12 @@ const citiesList = [{
     },
     {
         "id": "ChIJ_b9Llc15Y1QRfNDF9LirR0Y",
-        "label": "Port McNeil, BC",
+        "label": "Port McNeill, BC",
         "type": "city",
-        "searchTerm": "Port McNeil, BC",
-        "acrdName": "Port McNeil BC",
+        "searchTerm": "Port McNeill, BC",
+        "acrdName": "Port McNeill BC",
         "provinceCode": "BC",
-        "cityName": "Port McNeil",
+        "cityName": "Port McNeill",
         "iataCode": "YVR",
         "cityCode": "YVR",
         "airports": [{
@@ -76504,12 +76282,12 @@ const citiesList = [{
     },
     {
         "id": "ChIJkdIBu-G_uUwRsClNrq0MBAU",
-        "label": "Saint-George-de-Beauce, QC",
+        "label": "Saint-Georges, QC",
         "type": "city",
-        "searchTerm": "Saint-George-de-Beauce, QC",
-        "acrdName": "Saint-George-de-Beauce QC",
+        "searchTerm": "Saint-Georges, QC",
+        "acrdName": "Saint-Georges QC",
         "provinceCode": "QC",
-        "cityName": "Saint-George-de-Beauce",
+        "cityName": "Saint-Georges",
         "iataCode": "YUL",
         "cityCode": "YMQ",
         "airports": [{
@@ -102543,4 +102321,7 @@ fetchCityRates()
         }
     })
     console.log("errorsCount", errorsArray.length)
+    errorsArray.forEach(error => {
+        console.log(error.city.body.body);
+    })
 })

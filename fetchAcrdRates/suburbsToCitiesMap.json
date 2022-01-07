@@ -924,18 +924,6 @@
     "queryProvince": "PE"
   },
   {
-    "suburbName": "Orford",
-    "suburbOf": "Canton Orford",
-    "province": "QC",
-    "queryProvince": "QC"
-  },
-  {
-    "suburbName": "Orford",
-    "suburbOf": "Mont-Orford",
-    "province": "QC",
-    "queryProvince": "QC"
-  },
-  {
     "suburbName": "Port McNeill",
     "suburbOf": "Port Mcneill",
     "province": "BC",
@@ -958,5 +946,11 @@
     "suburbOf": "Sept-iles",
     "province": "QC",
     "queryProvince": "QC"
+  },
+  {
+    "suburbName": "McBride",
+    "suburbOf": "Mcbride",
+    "province": "BC",
+    "queryProvince": "BC"
   }
 ]

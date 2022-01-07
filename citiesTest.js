@@ -4,7 +4,8 @@ const {
 } = require('../src/data/cities');
 global.Headers = fetch.Headers;
 
-const citiesList = [{
+const citiesList = [
+    {
         "id": "ChIJ25bt8xxsgFMRdRcqQ_3APVQ",
         "label": "100 Mile House, BC",
         "type": "city",
@@ -14,7 +15,8 @@ const citiesList = [{
         "cityName": "100 Mile House",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -306,7 +308,8 @@ const citiesList = [{
         "cityName": "Abbotsford",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -458,7 +461,8 @@ const citiesList = [{
         "cityName": "Acheson",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -820,7 +824,8 @@ const citiesList = [{
         "cityName": "Ahuntsic-Cartierville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -1007,7 +1012,8 @@ const citiesList = [{
         "cityName": "Airdrie",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -1264,7 +1270,8 @@ const citiesList = [{
         "cityName": "Ajax",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -1416,7 +1423,8 @@ const citiesList = [{
         "cityName": "Aldergrove",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -1533,7 +1541,8 @@ const citiesList = [{
         "cityName": "Alma",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -1860,7 +1869,8 @@ const citiesList = [{
         "cityName": "Amherst",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -2222,7 +2232,8 @@ const citiesList = [{
         "cityName": "Amos",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -2584,7 +2595,8 @@ const citiesList = [{
         "cityName": "Amqui",
         "iataCode": "YZV",
         "cityCode": "YZV",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SEPT ILES",
@@ -2946,7 +2958,8 @@ const citiesList = [{
         "cityName": "Anjou",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -3133,7 +3146,8 @@ const citiesList = [{
         "cityName": "Antigonish",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -3495,7 +3509,8 @@ const citiesList = [{
         "cityName": "Arnprior",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -3682,7 +3697,8 @@ const citiesList = [{
         "cityName": "Athabasca",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -4009,7 +4025,8 @@ const citiesList = [{
         "cityName": "Baie-Comeau",
         "iataCode": "YBC",
         "cityCode": "YBC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "BAIE-COMEAU",
@@ -4371,7 +4388,8 @@ const citiesList = [{
         "cityName": "Baie-d’Urfé",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -4628,7 +4646,8 @@ const citiesList = [{
         "cityName": "Balzac",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -4885,7 +4904,8 @@ const citiesList = [{
         "cityName": "Banff",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -5142,7 +5162,8 @@ const citiesList = [{
         "cityName": "Barrie",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -5294,7 +5315,8 @@ const citiesList = [{
         "cityName": "Bathurst",
         "iataCode": "ZBF",
         "cityCode": "ZBF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "BATHURST",
@@ -5656,7 +5678,8 @@ const citiesList = [{
         "cityName": "Beaconsfield",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -5913,7 +5936,8 @@ const citiesList = [{
         "cityName": "Beauport",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -6170,7 +6194,8 @@ const citiesList = [{
         "cityName": "Belleville",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -6322,7 +6347,8 @@ const citiesList = [{
         "cityName": "Beresford",
         "iataCode": "ZBF",
         "cityCode": "ZBF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "BATHURST",
@@ -6684,7 +6710,8 @@ const citiesList = [{
         "cityName": "Berthierville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -6836,7 +6863,8 @@ const citiesList = [{
         "cityName": "Blackfalds",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -7163,7 +7191,8 @@ const citiesList = [{
         "cityName": "Blainville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -7385,7 +7414,8 @@ const citiesList = [{
         "cityName": "Blue River",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -7747,7 +7777,8 @@ const citiesList = [{
         "cityName": "Boischâtel",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -8004,7 +8035,8 @@ const citiesList = [{
         "cityName": "Bolton",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -8191,7 +8223,8 @@ const citiesList = [{
         "cityName": "Bonaventure",
         "iataCode": "YVB",
         "cityCode": "YVB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "BONAVENTURE",
@@ -8553,7 +8586,8 @@ const citiesList = [{
         "cityName": "Bonnyville",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -8775,7 +8809,8 @@ const citiesList = [{
         "cityName": "Boucherville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -8962,7 +8997,8 @@ const citiesList = [{
         "cityName": "Bowmanville",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -9114,7 +9150,8 @@ const citiesList = [{
         "cityName": "Bracebridge",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -9301,7 +9338,8 @@ const citiesList = [{
         "cityName": "Brampton",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -9453,7 +9491,8 @@ const citiesList = [{
         "cityName": "Brandon",
         "iataCode": "YBR",
         "cityCode": "YBR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MUNICIPAL",
@@ -9710,7 +9749,8 @@ const citiesList = [{
         "cityName": "Brantford",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -9897,7 +9937,8 @@ const citiesList = [{
         "cityName": "Bridgewater",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -10189,7 +10230,8 @@ const citiesList = [{
         "cityName": "Brockville",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -10341,7 +10383,8 @@ const citiesList = [{
         "cityName": "Bromont",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -10493,7 +10536,8 @@ const citiesList = [{
         "cityName": "Brooks",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -10715,7 +10759,8 @@ const citiesList = [{
         "cityName": "Brossard",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -10902,7 +10947,8 @@ const citiesList = [{
         "cityName": "Burlington",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -11054,7 +11100,8 @@ const citiesList = [{
         "cityName": "Burnaby",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -11206,7 +11253,8 @@ const citiesList = [{
         "cityName": "Bécancour",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -11358,7 +11406,8 @@ const citiesList = [{
         "cityName": "Cache Creek",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -11615,7 +11664,8 @@ const citiesList = [{
         "cityName": "Calgary",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -11872,7 +11922,8 @@ const citiesList = [{
         "cityName": "Cambridge",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -12094,7 +12145,8 @@ const citiesList = [{
         "cityName": "Campbell River",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -12386,7 +12438,8 @@ const citiesList = [{
         "cityName": "Campbellton",
         "iataCode": "YCL",
         "cityCode": "YCL",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CHARLO",
@@ -12748,7 +12801,8 @@ const citiesList = [{
         "cityName": "Camrose",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -13075,7 +13129,8 @@ const citiesList = [{
         "cityName": "Canmore",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -13332,7 +13387,8 @@ const citiesList = [{
         "cityName": "Cap-Rouge",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -13519,7 +13575,8 @@ const citiesList = [{
         "cityName": "Cap-aux-Meules",
         "iataCode": "YGR",
         "cityCode": "YGR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "ILES DE LA MADELE",
@@ -13881,7 +13938,8 @@ const citiesList = [{
         "cityName": "Caraquet",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -14243,7 +14301,8 @@ const citiesList = [{
         "cityName": "Cardigan",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -14605,7 +14664,8 @@ const citiesList = [{
         "cityName": "Carlyle",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -14757,7 +14817,8 @@ const citiesList = [{
         "cityName": "Casselman",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -14944,7 +15005,8 @@ const citiesList = [{
         "cityName": "Castlegar",
         "iataCode": "YCG",
         "cityCode": "YCG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "WEST KOOTENAY REGIONAL",
@@ -15201,7 +15263,8 @@ const citiesList = [{
         "cityName": "Charlesbourg",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -15458,7 +15521,8 @@ const citiesList = [{
         "cityName": "Charlottetown",
         "iataCode": "YYG",
         "cityCode": "YYG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CHARLOTTETOWN",
@@ -15820,7 +15884,8 @@ const citiesList = [{
         "cityName": "Chase",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -16077,7 +16142,8 @@ const citiesList = [{
         "cityName": "Chatham",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -16159,7 +16225,8 @@ const citiesList = [{
         "cityName": "Chetwynd",
         "iataCode": "YXJ",
         "cityCode": "YXJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "NORTH PEACE",
@@ -16521,7 +16588,8 @@ const citiesList = [{
         "cityName": "Chicoutimi",
         "iataCode": "YBG",
         "cityCode": "YBG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAGUENAY-BAGOTVILLE",
@@ -16848,7 +16916,8 @@ const citiesList = [{
         "cityName": "Chilliwack",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -17000,7 +17069,8 @@ const citiesList = [{
         "cityName": "Clarenville",
         "iataCode": "YYT",
         "cityCode": "YYT",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -17292,7 +17362,8 @@ const citiesList = [{
         "cityName": "Clarington",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -17444,7 +17515,8 @@ const citiesList = [{
         "cityName": "Cobourg",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -17596,7 +17668,8 @@ const citiesList = [{
         "cityName": "Cochrane",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -17853,7 +17926,8 @@ const citiesList = [{
         "cityName": "Cold Lake",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -18110,7 +18184,8 @@ const citiesList = [{
         "cityName": "Collingwood",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -18262,7 +18337,8 @@ const citiesList = [{
         "cityName": "Colwood",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -18379,7 +18455,8 @@ const citiesList = [{
         "cityName": "Coquitlam",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -18531,7 +18608,8 @@ const citiesList = [{
         "cityName": "Cordova Bay",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -18648,7 +18726,8 @@ const citiesList = [{
         "cityName": "Corner Brook",
         "iataCode": "YDF",
         "cityCode": "YDF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "REGIONAL",
@@ -19010,7 +19089,8 @@ const citiesList = [{
         "cityName": "Cornwall",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -19197,7 +19277,8 @@ const citiesList = [{
         "cityName": "Cornwall",
         "iataCode": "YYG",
         "cityCode": "YYG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CHARLOTTETOWN",
@@ -19559,7 +19640,8 @@ const citiesList = [{
         "cityName": "Courtenay",
         "iataCode": "YQQ",
         "cityCode": "YQQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "COMOX",
@@ -19816,7 +19898,8 @@ const citiesList = [{
         "cityName": "Cranbrook",
         "iataCode": "YXC",
         "cityCode": "YXC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CANADIAN ROCKIES INTL",
@@ -20073,7 +20156,8 @@ const citiesList = [{
         "cityName": "Creek",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -20260,7 +20344,8 @@ const citiesList = [{
         "cityName": "Cumberland",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -20447,7 +20532,8 @@ const citiesList = [{
         "cityName": "Côte-Saint-Luc",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -20669,7 +20755,8 @@ const citiesList = [{
         "cityName": "Dalhousie",
         "iataCode": "YCL",
         "cityCode": "YCL",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CHARLO",
@@ -21031,7 +21118,8 @@ const citiesList = [{
         "cityName": "Dartmouth",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -21358,7 +21446,8 @@ const citiesList = [{
         "cityName": "Dauphin",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -21720,41 +21809,43 @@ const citiesList = [{
         "cityName": "Dawson City",
         "iataCode": "YDA",
         "cityCode": "YDA",
-        "airports": [{
-            "type": "location",
-            "subType": "AIRPORT",
-            "name": "DAWSON CITY",
-            "detailedName": "DAWSON CITY/YT/CA",
-            "timeZoneOffset": "-07:00",
-            "iataCode": "YDA",
-            "geoCode": {
-                "latitude": 64.04306,
-                "longitude": -139.12781
-            },
-            "address": {
-                "cityName": "DAWSON CITY",
-                "cityCode": "YDA",
-                "countryName": "CANADA",
-                "countryCode": "CA",
-                "stateCode": "YT",
-                "regionCode": "NAMER"
-            },
-            "distance": {
-                "value": 14,
-                "unit": "KM"
-            },
-            "analytics": {
-                "flights": {
-                    "score": 1
+        "airports": [
+            {
+                "type": "location",
+                "subType": "AIRPORT",
+                "name": "DAWSON CITY",
+                "detailedName": "DAWSON CITY/YT/CA",
+                "timeZoneOffset": "-07:00",
+                "iataCode": "YDA",
+                "geoCode": {
+                    "latitude": 64.04306,
+                    "longitude": -139.12781
                 },
-                "travelers": {
-                    "score": 1
-                }
-            },
-            "relevance": 9.10417,
-            "frenchLabel": "Aéroport de Dawson",
-            "englishLabel": "Dawson City"
-        }]
+                "address": {
+                    "cityName": "DAWSON CITY",
+                    "cityCode": "YDA",
+                    "countryName": "CANADA",
+                    "countryCode": "CA",
+                    "stateCode": "YT",
+                    "regionCode": "NAMER"
+                },
+                "distance": {
+                    "value": 14,
+                    "unit": "KM"
+                },
+                "analytics": {
+                    "flights": {
+                        "score": 1
+                    },
+                    "travelers": {
+                        "score": 1
+                    }
+                },
+                "relevance": 9.10417,
+                "frenchLabel": "Aéroport de Dawson",
+                "englishLabel": "Dawson City"
+            }
+        ]
     },
     {
         "id": "ChIJuYcHfjaZkVMRMDF7KhU1AQU",
@@ -21766,7 +21857,8 @@ const citiesList = [{
         "cityName": "Dawson Creek",
         "iataCode": "YDQ",
         "cityCode": "YDQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "DAWSON CREEK",
@@ -22058,7 +22150,8 @@ const citiesList = [{
         "cityName": "Deauville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -22175,7 +22268,8 @@ const citiesList = [{
         "cityName": "Deer Lake",
         "iataCode": "YDF",
         "cityCode": "YDF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "REGIONAL",
@@ -22537,7 +22631,8 @@ const citiesList = [{
         "cityName": "Delta",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -22689,7 +22784,8 @@ const citiesList = [{
         "cityName": "Dieppe",
         "iataCode": "YQM",
         "cityCode": "YQM",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "GREATER MONCTON INTL",
@@ -23051,7 +23147,8 @@ const citiesList = [{
         "cityName": "Dollard-des-Ormeaux",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -23273,7 +23370,8 @@ const citiesList = [{
         "cityName": "Dorval",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -23495,7 +23593,8 @@ const citiesList = [{
         "cityName": "Drayton Valley",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -23857,7 +23956,8 @@ const citiesList = [{
         "cityName": "Drumheller",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -24114,7 +24214,8 @@ const citiesList = [{
         "cityName": "Drummondville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -24266,7 +24367,8 @@ const citiesList = [{
         "cityName": "Dryden",
         "iataCode": "YHD",
         "cityCode": "YHD",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "REGIONAL",
@@ -24628,7 +24730,8 @@ const citiesList = [{
         "cityName": "Duncan",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -24780,7 +24883,8 @@ const citiesList = [{
         "cityName": "Edmonton",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -25142,7 +25246,8 @@ const citiesList = [{
         "cityName": "Edmundston",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -25434,7 +25539,8 @@ const citiesList = [{
         "cityName": "Edson",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -25796,7 +25902,8 @@ const citiesList = [{
         "cityName": "Emerald Park",
         "iataCode": "YQR",
         "cityCode": "YQR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -25913,7 +26020,8 @@ const citiesList = [{
         "cityName": "Enfield",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -26240,7 +26348,8 @@ const citiesList = [{
         "cityName": "Enoch",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -26602,7 +26711,8 @@ const citiesList = [{
         "cityName": "Esquimalt",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -26719,7 +26829,8 @@ const citiesList = [{
         "cityName": "Estevan",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -26836,7 +26947,8 @@ const citiesList = [{
         "cityName": "Etobicoke",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -26988,7 +27100,8 @@ const citiesList = [{
         "cityName": "Fall River",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -27315,7 +27428,8 @@ const citiesList = [{
         "cityName": "Fergus",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -27502,7 +27616,8 @@ const citiesList = [{
         "cityName": "Fleurimont",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -27619,7 +27734,8 @@ const citiesList = [{
         "cityName": "Flin Flon",
         "iataCode": "YFO",
         "cityCode": "YFO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "FLIN FLON",
@@ -27806,7 +27922,8 @@ const citiesList = [{
         "cityName": "Fort Erie",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -27888,7 +28005,8 @@ const citiesList = [{
         "cityName": "Fort Frances",
         "iataCode": "YAG",
         "cityCode": "YAG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MUNICIPAL",
@@ -28180,7 +28298,8 @@ const citiesList = [{
         "cityName": "Fort McMurray",
         "iataCode": "YMM",
         "cityCode": "YMM",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "FORT MCMURRAY",
@@ -28437,7 +28556,8 @@ const citiesList = [{
         "cityName": "Fort Nelson",
         "iataCode": "YYE",
         "cityCode": "YYE",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "NORTHERN ROCKIES RGNL",
@@ -28694,7 +28814,8 @@ const citiesList = [{
         "cityName": "Fort Saskatchewan",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -29021,7 +29142,8 @@ const citiesList = [{
         "cityName": "Fort St. John",
         "iataCode": "YXJ",
         "cityCode": "YXJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "NORTH PEACE",
@@ -29313,7 +29435,8 @@ const citiesList = [{
         "cityName": "Fox Creek",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -29675,7 +29798,8 @@ const citiesList = [{
         "cityName": "Fredericton",
         "iataCode": "YFC",
         "cityCode": "YFC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -29967,7 +30091,8 @@ const citiesList = [{
         "cityName": "Gananoque",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -30119,7 +30244,8 @@ const citiesList = [{
         "cityName": "Gander",
         "iataCode": "YQX",
         "cityCode": "YQX",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -30446,7 +30572,8 @@ const citiesList = [{
         "cityName": "Gaspé",
         "iataCode": "YGP",
         "cityCode": "YGP",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MICHEL-POULIOT",
@@ -30808,7 +30935,8 @@ const citiesList = [{
         "cityName": "Gatineau (QC)",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -30995,7 +31123,8 @@ const citiesList = [{
         "cityName": "Gatineau",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -31182,7 +31311,8 @@ const citiesList = [{
         "cityName": "Georgetown/Halton Hills",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -31334,7 +31464,8 @@ const citiesList = [{
         "cityName": "Gimli",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -31696,7 +31827,8 @@ const citiesList = [{
         "cityName": "Gloucester",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -31883,7 +32015,8 @@ const citiesList = [{
         "cityName": "Goderich",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -32000,7 +32133,8 @@ const citiesList = [{
         "cityName": "Goffs",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -32327,7 +32461,8 @@ const citiesList = [{
         "cityName": "Golden",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -32654,7 +32789,8 @@ const citiesList = [{
         "cityName": "Goldstream",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -32771,7 +32907,8 @@ const citiesList = [{
         "cityName": "Gouldbourn",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -32958,7 +33095,8 @@ const citiesList = [{
         "cityName": "Grand Falls",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -33250,7 +33388,8 @@ const citiesList = [{
         "cityName": "Grand Falls",
         "iataCode": "YDF",
         "cityCode": "YDF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "REGIONAL",
@@ -33612,7 +33751,8 @@ const citiesList = [{
         "cityName": "Grande Prairie",
         "iataCode": "YQU",
         "cityCode": "YQU",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "GRANDE PRAIRIE",
@@ -33939,7 +34079,8 @@ const citiesList = [{
         "cityName": "Gravenhurst",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -34091,7 +34232,8 @@ const citiesList = [{
         "cityName": "Grimsby",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -34243,7 +34385,8 @@ const citiesList = [{
         "cityName": "Grimshaw",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -34570,7 +34713,8 @@ const citiesList = [{
         "cityName": "Guelph",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -34792,7 +34936,8 @@ const citiesList = [{
         "cityName": "Halifax",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -35119,7 +35264,8 @@ const citiesList = [{
         "cityName": "Hamilton",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -35271,7 +35417,8 @@ const citiesList = [{
         "cityName": "Hawkesbury",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -35493,7 +35640,8 @@ const citiesList = [{
         "cityName": "Headingly",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -35820,7 +35968,8 @@ const citiesList = [{
         "cityName": "High Level",
         "iataCode": "YOJ",
         "cityCode": "YOJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "HIGH LEVEL",
@@ -36182,7 +36331,8 @@ const citiesList = [{
         "cityName": "High River",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -36439,7 +36589,8 @@ const citiesList = [{
         "cityName": "Hinton",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -36801,7 +36952,8 @@ const citiesList = [{
         "cityName": "Huntsville",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -36988,7 +37140,8 @@ const citiesList = [{
         "cityName": "Innisfail",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -37315,7 +37468,8 @@ const citiesList = [{
         "cityName": "Inuvik",
         "iataCode": "YEV",
         "cityCode": "YEV",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MIKE ZUBKO",
@@ -37537,7 +37691,8 @@ const citiesList = [{
         "cityName": "Iqaluit",
         "iataCode": "YFB",
         "cityCode": "YFB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "IQALUIT",
@@ -37899,7 +38054,8 @@ const citiesList = [{
         "cityName": "Jonquière",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -38226,7 +38382,8 @@ const citiesList = [{
         "cityName": "Kamloops",
         "iataCode": "YKA",
         "cityCode": "YKA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "KAMLOOPS",
@@ -38483,7 +38640,8 @@ const citiesList = [{
         "cityName": "Kananaskis Village",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -38740,7 +38898,8 @@ const citiesList = [{
         "cityName": "Kanata",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -38927,7 +39086,8 @@ const citiesList = [{
         "cityName": "Kapuskasing",
         "iataCode": "YTS",
         "cityCode": "YTS",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "VICTOR M.POWER",
@@ -39149,7 +39309,8 @@ const citiesList = [{
         "cityName": "Kelowna",
         "iataCode": "YLW",
         "cityCode": "YLW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -39406,7 +39567,8 @@ const citiesList = [{
         "cityName": "Kenora",
         "iataCode": "YQK",
         "cityCode": "YQK",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "KENORA",
@@ -39768,7 +39930,8 @@ const citiesList = [{
         "cityName": "Kincardine",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -39920,7 +40083,8 @@ const citiesList = [{
         "cityName": "Kindersley",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -40177,7 +40341,8 @@ const citiesList = [{
         "cityName": "Kingston",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -40329,7 +40494,8 @@ const citiesList = [{
         "cityName": "Kirkland Lake",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -40656,7 +40822,8 @@ const citiesList = [{
         "cityName": "Kirkland",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -40913,7 +41080,8 @@ const citiesList = [{
         "cityName": "Kitchener",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -41135,7 +41303,8 @@ const citiesList = [{
         "cityName": "Kitimat",
         "iataCode": "YXT",
         "cityCode": "YXT",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "NORTHWEST REGIONAL",
@@ -41322,7 +41491,8 @@ const citiesList = [{
         "cityName": "La Baie",
         "iataCode": "YBG",
         "cityCode": "YBG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAGUENAY-BAGOTVILLE",
@@ -41649,7 +41819,8 @@ const citiesList = [{
         "cityName": "La Pocatière",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -41941,7 +42112,8 @@ const citiesList = [{
         "cityName": "Lac la Biche",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -42198,7 +42370,8 @@ const citiesList = [{
         "cityName": "Lachenaie",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -42385,7 +42558,8 @@ const citiesList = [{
         "cityName": "Lachine",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -42607,7 +42781,8 @@ const citiesList = [{
         "cityName": "Lacombe",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -42934,7 +43109,8 @@ const citiesList = [{
         "cityName": "Ladysmith",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -43121,7 +43297,8 @@ const citiesList = [{
         "cityName": "Lakeside",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -43483,7 +43660,8 @@ const citiesList = [{
         "cityName": "Langford",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -43600,7 +43778,8 @@ const citiesList = [{
         "cityName": "Langley",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -43717,7 +43896,8 @@ const citiesList = [{
         "cityName": "Lasalle",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -43939,7 +44119,8 @@ const citiesList = [{
         "cityName": "Laterrière",
         "iataCode": "YBG",
         "cityCode": "YBG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAGUENAY-BAGOTVILLE",
@@ -44266,7 +44447,8 @@ const citiesList = [{
         "cityName": "Laval",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -44453,7 +44635,8 @@ const citiesList = [{
         "cityName": "Laval-des-Rapides",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -44675,7 +44858,8 @@ const citiesList = [{
         "cityName": "Leamington",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -44792,7 +44976,8 @@ const citiesList = [{
         "cityName": "Leduc",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -45119,7 +45304,8 @@ const citiesList = [{
         "cityName": "Lemoyne",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -45306,7 +45492,8 @@ const citiesList = [{
         "cityName": "Lennoxville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -45423,7 +45610,8 @@ const citiesList = [{
         "cityName": "Lethbridge",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -45645,7 +45833,8 @@ const citiesList = [{
         "cityName": "Lindsay",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -45797,7 +45986,8 @@ const citiesList = [{
         "cityName": "Liverpool",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -46089,7 +46279,8 @@ const citiesList = [{
         "cityName": "Lloydminster",
         "iataCode": "YLL",
         "cityCode": "YLL",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LLOYDMINSTER",
@@ -46381,7 +46572,8 @@ const citiesList = [{
         "cityName": "Lloydminster",
         "iataCode": "YLL",
         "cityCode": "YLL",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LLOYDMINSTER",
@@ -46673,7 +46865,8 @@ const citiesList = [{
         "cityName": "London",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -46825,7 +47018,8 @@ const citiesList = [{
         "cityName": "Longueuil",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -47012,7 +47206,8 @@ const citiesList = [{
         "cityName": "Lorraine",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -47234,7 +47429,8 @@ const citiesList = [{
         "cityName": "Lévis",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -47421,7 +47617,8 @@ const citiesList = [{
         "cityName": "L’Ancienne-Lorette",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -47608,7 +47805,8 @@ const citiesList = [{
         "cityName": "Manning",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -47970,7 +48168,8 @@ const citiesList = [{
         "cityName": "Manotick",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -48157,7 +48356,8 @@ const citiesList = [{
         "cityName": "Maple Ridge",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -48309,7 +48509,8 @@ const citiesList = [{
         "cityName": "Markham",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -48496,7 +48697,8 @@ const citiesList = [{
         "cityName": "Martensville",
         "iataCode": "YXE",
         "cityCode": "YXE",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J.G.DIEFENBAKER INTL",
@@ -48753,7 +48955,8 @@ const citiesList = [{
         "cityName": "Matane",
         "iataCode": "YZV",
         "cityCode": "YZV",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SEPT ILES",
@@ -49115,7 +49318,8 @@ const citiesList = [{
         "cityName": "McBride",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -49477,7 +49681,8 @@ const citiesList = [{
         "cityName": "Meadow Lake",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -49769,7 +49974,8 @@ const citiesList = [{
         "cityName": "Medicine Hat",
         "iataCode": "YXH",
         "cityCode": "YXH",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MEDICINE HAT",
@@ -49991,7 +50197,8 @@ const citiesList = [{
         "cityName": "Membertou",
         "iataCode": "YQY",
         "cityCode": "YQY",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J.A. DOUGLAS MCCURDY",
@@ -50353,7 +50560,8 @@ const citiesList = [{
         "cityName": "Merritt",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -50610,7 +50818,8 @@ const citiesList = [{
         "cityName": "Middleton",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -50902,7 +51111,8 @@ const citiesList = [{
         "cityName": "Millbrook",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -51229,7 +51439,8 @@ const citiesList = [{
         "cityName": "Milton",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -51381,7 +51592,8 @@ const citiesList = [{
         "cityName": "Mindemoya",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -51568,7 +51780,8 @@ const citiesList = [{
         "cityName": "Miramichi",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -51930,7 +52143,8 @@ const citiesList = [{
         "cityName": "Mission",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -52082,7 +52296,8 @@ const citiesList = [{
         "cityName": "Mississauga",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -52234,7 +52449,8 @@ const citiesList = [{
         "cityName": "Moncton",
         "iataCode": "YQM",
         "cityCode": "YQM",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "GREATER MONCTON INTL",
@@ -52596,7 +52812,8 @@ const citiesList = [{
         "cityName": "Mont-Bellevue",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -52713,7 +52930,8 @@ const citiesList = [{
         "cityName": "Mont-Laurier",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -52935,7 +53153,8 @@ const citiesList = [{
         "cityName": "Mont-Tremblant",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -53157,7 +53376,8 @@ const citiesList = [{
         "cityName": "Montréal",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -53344,7 +53564,8 @@ const citiesList = [{
         "cityName": "Montréal-Est",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -53531,7 +53752,8 @@ const citiesList = [{
         "cityName": "Montréal-Nord",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -53718,7 +53940,8 @@ const citiesList = [{
         "cityName": "Moose Jaw",
         "iataCode": "YQR",
         "cityCode": "YQR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -53835,7 +54058,8 @@ const citiesList = [{
         "cityName": "Moosomin",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -54022,7 +54246,8 @@ const citiesList = [{
         "cityName": "Nanaimo",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -54209,7 +54434,8 @@ const citiesList = [{
         "cityName": "Nelson",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -54466,7 +54692,8 @@ const citiesList = [{
         "cityName": "Nepean",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -54653,7 +54880,8 @@ const citiesList = [{
         "cityName": "New Carlisle",
         "iataCode": "YVB",
         "cityCode": "YVB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "BONAVENTURE",
@@ -55015,7 +55243,8 @@ const citiesList = [{
         "cityName": "New Glasgow",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -55342,7 +55571,8 @@ const citiesList = [{
         "cityName": "New Liskeard",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -55704,7 +55934,8 @@ const citiesList = [{
         "cityName": "New Minas",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -55996,7 +56227,8 @@ const citiesList = [{
         "cityName": "New Westminster",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -56148,7 +56380,8 @@ const citiesList = [{
         "cityName": "Newmarket",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -56300,7 +56533,8 @@ const citiesList = [{
         "cityName": "Niagara Falls",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -56382,7 +56616,8 @@ const citiesList = [{
         "cityName": "Niagara-on-the-Lake,Thorold",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -56464,7 +56699,8 @@ const citiesList = [{
         "cityName": "Nisku",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -56791,7 +57027,8 @@ const citiesList = [{
         "cityName": "North Battleford",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -57153,7 +57390,8 @@ const citiesList = [{
         "cityName": "North Bay",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -57445,7 +57683,8 @@ const citiesList = [{
         "cityName": "North Saanich",
         "iataCode": "YYJ",
         "cityCode": "YYJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "VICTORIA INTL",
@@ -57562,7 +57801,8 @@ const citiesList = [{
         "cityName": "North Sydney",
         "iataCode": "YQY",
         "cityCode": "YQY",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J.A. DOUGLAS MCCURDY",
@@ -57924,7 +58164,8 @@ const citiesList = [{
         "cityName": "North Vancouver",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -58076,7 +58317,8 @@ const citiesList = [{
         "cityName": "North York",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -58263,7 +58505,8 @@ const citiesList = [{
         "cityName": "O'Leary",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -58625,7 +58868,8 @@ const citiesList = [{
         "cityName": "Oak Bay",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -58742,7 +58986,8 @@ const citiesList = [{
         "cityName": "Oakville",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -58894,7 +59139,8 @@ const citiesList = [{
         "cityName": "Okotoks",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -59151,7 +59397,8 @@ const citiesList = [{
         "cityName": "Olds",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -59478,7 +59725,8 @@ const citiesList = [{
         "cityName": "Orangeville",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -59630,7 +59878,8 @@ const citiesList = [{
         "cityName": "Orford",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -59782,7 +60031,8 @@ const citiesList = [{
         "cityName": "Orillia",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -59934,7 +60184,8 @@ const citiesList = [{
         "cityName": "Orleans",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -60121,7 +60372,8 @@ const citiesList = [{
         "cityName": "Oromocto",
         "iataCode": "YFC",
         "cityCode": "YFC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -60413,7 +60665,8 @@ const citiesList = [{
         "cityName": "Oshawa",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -60565,7 +60818,8 @@ const citiesList = [{
         "cityName": "Osoyoos",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -60787,7 +61041,8 @@ const citiesList = [{
         "cityName": "Ottawa",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -60974,7 +61229,8 @@ const citiesList = [{
         "cityName": "Owen Sound",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -61126,7 +61382,8 @@ const citiesList = [{
         "cityName": "Parksville",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -61348,7 +61605,8 @@ const citiesList = [{
         "cityName": "Parry Sound",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -61570,7 +61828,8 @@ const citiesList = [{
         "cityName": "Peace River",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -61897,7 +62156,8 @@ const citiesList = [{
         "cityName": "Pembroke",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -62119,7 +62379,8 @@ const citiesList = [{
         "cityName": "Penticton",
         "iataCode": "YYF",
         "cityCode": "YYF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "REGIONAL",
@@ -62341,7 +62602,8 @@ const citiesList = [{
         "cityName": "Percé",
         "iataCode": "YGP",
         "cityCode": "YGP",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MICHEL-POULIOT",
@@ -62703,7 +62965,8 @@ const citiesList = [{
         "cityName": "Perth",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -62890,7 +63153,8 @@ const citiesList = [{
         "cityName": "Petawawa",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -63112,7 +63376,8 @@ const citiesList = [{
         "cityName": "Peterborough",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -63264,7 +63529,8 @@ const citiesList = [{
         "cityName": "Pickering",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -63416,7 +63682,8 @@ const citiesList = [{
         "cityName": "Pictou",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -63743,7 +64010,8 @@ const citiesList = [{
         "cityName": "Pierrefonds",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -64000,7 +64268,8 @@ const citiesList = [{
         "cityName": "Pincher Creek",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -64187,7 +64456,8 @@ const citiesList = [{
         "cityName": "Pitt Meadows",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -64339,7 +64609,8 @@ const citiesList = [{
         "cityName": "Plateau-Mont-Royal",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -64526,7 +64797,8 @@ const citiesList = [{
         "cityName": "Pointe-Aux-Trembles",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -64713,7 +64985,8 @@ const citiesList = [{
         "cityName": "Pointe-Claire",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -64935,7 +65208,8 @@ const citiesList = [{
         "cityName": "Ponoka",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -65262,7 +65536,8 @@ const citiesList = [{
         "cityName": "Pont-Viau",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -65449,7 +65724,8 @@ const citiesList = [{
         "cityName": "Port Alberni",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -65706,7 +65982,8 @@ const citiesList = [{
         "cityName": "Port Coquitlam",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -65858,7 +66135,8 @@ const citiesList = [{
         "cityName": "Port Elgin",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -66010,7 +66288,8 @@ const citiesList = [{
         "cityName": "Port Hawkesbury",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -66372,7 +66651,8 @@ const citiesList = [{
         "cityName": "Port McNeill",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -66664,7 +66944,8 @@ const citiesList = [{
         "cityName": "Port Moody",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -66816,7 +67097,8 @@ const citiesList = [{
         "cityName": "Portage La Prairie",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -67178,7 +67460,8 @@ const citiesList = [{
         "cityName": "Powell River",
         "iataCode": "YPW",
         "cityCode": "YPW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "POWELL RIVER",
@@ -67435,7 +67718,8 @@ const citiesList = [{
         "cityName": "Preston",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -67657,7 +67941,8 @@ const citiesList = [{
         "cityName": "Prince Albert",
         "iataCode": "YXE",
         "cityCode": "YXE",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J.G.DIEFENBAKER INTL",
@@ -67879,7 +68164,8 @@ const citiesList = [{
         "cityName": "Prince George",
         "iataCode": "YXS",
         "cityCode": "YXS",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "AIRPORT",
@@ -68241,7 +68527,8 @@ const citiesList = [{
         "cityName": "Prince Rupert",
         "iataCode": "YPR",
         "cityCode": "YPR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "AIRPORT",
@@ -68358,7 +68645,8 @@ const citiesList = [{
         "cityName": "Princeton",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -68580,7 +68868,8 @@ const citiesList = [{
         "cityName": "Provost",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -68907,7 +69196,8 @@ const citiesList = [{
         "cityName": "Quesnel",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -69269,7 +69559,8 @@ const citiesList = [{
         "cityName": "Quispamsis",
         "iataCode": "YSJ",
         "cityCode": "YSJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAINT JOHN",
@@ -69561,7 +69852,8 @@ const citiesList = [{
         "cityName": "Québec",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -69748,7 +70040,8 @@ const citiesList = [{
         "cityName": "Radium Hot Springs",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -70005,7 +70298,8 @@ const citiesList = [{
         "cityName": "Red Deer",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -70332,7 +70626,8 @@ const citiesList = [{
         "cityName": "Regina",
         "iataCode": "YQR",
         "cityCode": "YQR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -70449,7 +70744,8 @@ const citiesList = [{
         "cityName": "Revelstoke",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -70706,7 +71002,8 @@ const citiesList = [{
         "cityName": "Richmond",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -70858,7 +71155,8 @@ const citiesList = [{
         "cityName": "Richmond Hill",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -71045,7 +71343,8 @@ const citiesList = [{
         "cityName": "Rimbey",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -71372,7 +71671,8 @@ const citiesList = [{
         "cityName": "Rimouski",
         "iataCode": "YYY",
         "cityCode": "YYY",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MONT-JOLI",
@@ -71734,7 +72034,8 @@ const citiesList = [{
         "cityName": "Rivière-du-Loup",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -72026,7 +72327,8 @@ const citiesList = [{
         "cityName": "Rock Forest",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -72143,7 +72445,8 @@ const citiesList = [{
         "cityName": "Rocky Mountain House",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -72470,7 +72773,8 @@ const citiesList = [{
         "cityName": "Rosemère",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -72692,7 +72996,8 @@ const citiesList = [{
         "cityName": "Rossland",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -72949,7 +73254,8 @@ const citiesList = [{
         "cityName": "Rouyn-Noranda",
         "iataCode": "YUY",
         "cityCode": "YUY",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "ROUYN-NORANDA",
@@ -73241,7 +73547,8 @@ const citiesList = [{
         "cityName": "Roxboro",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -73463,7 +73770,8 @@ const citiesList = [{
         "cityName": "Russell",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -73685,7 +73993,8 @@ const citiesList = [{
         "cityName": "Saanich",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -73802,7 +74111,8 @@ const citiesList = [{
         "cityName": "Saanichton",
         "iataCode": "YYJ",
         "cityCode": "YYJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "VICTORIA INTL",
@@ -73919,7 +74229,8 @@ const citiesList = [{
         "cityName": "Sackville",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -74281,7 +74592,8 @@ const citiesList = [{
         "cityName": "Saguenay",
         "iataCode": "YBG",
         "cityCode": "YBG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAGUENAY-BAGOTVILLE",
@@ -74608,7 +74920,8 @@ const citiesList = [{
         "cityName": "Saint John",
         "iataCode": "YSJ",
         "cityCode": "YSJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAINT JOHN",
@@ -74900,7 +75213,8 @@ const citiesList = [{
         "cityName": "Saint-Albert",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -75262,7 +75576,8 @@ const citiesList = [{
         "cityName": "Saint-André",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -75554,7 +75869,8 @@ const citiesList = [{
         "cityName": "Saint-Apollinaire",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -75741,7 +76057,8 @@ const citiesList = [{
         "cityName": "Saint-Basile",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -76033,7 +76350,8 @@ const citiesList = [{
         "cityName": "Saint-Eustache",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -76290,7 +76608,8 @@ const citiesList = [{
         "cityName": "Saint-Georges",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -76407,7 +76726,8 @@ const citiesList = [{
         "cityName": "Saint-Hubert",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -76594,7 +76914,8 @@ const citiesList = [{
         "cityName": "Saint-Hyacinthe",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -76746,7 +77067,8 @@ const citiesList = [{
         "cityName": "Saint-Jean-sur-Richelieu",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -76898,7 +77220,8 @@ const citiesList = [{
         "cityName": "Saint-Jérôme",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -77120,7 +77443,8 @@ const citiesList = [{
         "cityName": "Saint-Lambert",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -77307,7 +77631,8 @@ const citiesList = [{
         "cityName": "Saint-Laurent",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -77529,7 +77854,8 @@ const citiesList = [{
         "cityName": "Saint-Léonard",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -77716,7 +78042,8 @@ const citiesList = [{
         "cityName": "Saint-Élie",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -77868,7 +78195,8 @@ const citiesList = [{
         "cityName": "Sainte-Agathe-des-Monts",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -78125,7 +78453,8 @@ const citiesList = [{
         "cityName": "Sainte-Dorothée",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -78347,7 +78676,8 @@ const citiesList = [{
         "cityName": "Sainte-Foy",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -78534,7 +78864,8 @@ const citiesList = [{
         "cityName": "Sainte-Geneviève",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -78791,7 +79122,8 @@ const citiesList = [{
         "cityName": "Sainte-Julie",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -78978,7 +79310,8 @@ const citiesList = [{
         "cityName": "Sainte-Rose",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -79200,7 +79533,8 @@ const citiesList = [{
         "cityName": "Sainte-Thérèse",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -79422,7 +79756,8 @@ const citiesList = [{
         "cityName": "Salmon Arm",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -79679,7 +80014,8 @@ const citiesList = [{
         "cityName": "Sarnia",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -79761,7 +80097,8 @@ const citiesList = [{
         "cityName": "Saskatoon",
         "iataCode": "YXE",
         "cityCode": "YXE",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J.G.DIEFENBAKER INTL",
@@ -80018,7 +80355,8 @@ const citiesList = [{
         "cityName": "Sault Ste. Marie",
         "iataCode": "YAM",
         "cityCode": "YAM",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SAULT STE MARIE",
@@ -80205,7 +80543,8 @@ const citiesList = [{
         "cityName": "Scarborough",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -80392,7 +80731,8 @@ const citiesList = [{
         "cityName": "Selkirk",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -80754,7 +81094,8 @@ const citiesList = [{
         "cityName": "Senneville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -81011,7 +81352,8 @@ const citiesList = [{
         "cityName": "Sept-Iles",
         "iataCode": "YZV",
         "cityCode": "YZV",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SEPT ILES",
@@ -81373,7 +81715,8 @@ const citiesList = [{
         "cityName": "Shawinigan",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -81525,7 +81868,8 @@ const citiesList = [{
         "cityName": "Shediac",
         "iataCode": "YQM",
         "cityCode": "YQM",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "GREATER MONCTON INTL",
@@ -81887,7 +82231,8 @@ const citiesList = [{
         "cityName": "Sherbrooke",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -82004,7 +82349,8 @@ const citiesList = [{
         "cityName": "Sherwood Park",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -82331,7 +82677,8 @@ const citiesList = [{
         "cityName": "Sicamous",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -82588,7 +82935,8 @@ const citiesList = [{
         "cityName": "Sidney",
         "iataCode": "YYJ",
         "cityCode": "YYJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "VICTORIA INTL",
@@ -82705,7 +83053,8 @@ const citiesList = [{
         "cityName": "Sillery",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -82892,7 +83241,8 @@ const citiesList = [{
         "cityName": "Simcoe",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -83079,7 +83429,8 @@ const citiesList = [{
         "cityName": "Slave Lake",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -83406,7 +83757,8 @@ const citiesList = [{
         "cityName": "Slemon Park",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -83768,7 +84120,8 @@ const citiesList = [{
         "cityName": "Smiths Falls",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -83955,7 +84308,8 @@ const citiesList = [{
         "cityName": "Smithers",
         "iataCode": "YYD",
         "cityCode": "YYD",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "SMITHERS",
@@ -84107,7 +84461,8 @@ const citiesList = [{
         "cityName": "Sooke",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -84259,7 +84614,8 @@ const citiesList = [{
         "cityName": "Sorel",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -84411,7 +84767,8 @@ const citiesList = [{
         "cityName": "South Huron",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -84528,7 +84885,8 @@ const citiesList = [{
         "cityName": "Spruce Grove",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -84855,7 +85213,8 @@ const citiesList = [{
         "cityName": "Squamish",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -85112,7 +85471,8 @@ const citiesList = [{
         "cityName": "St. Andrews",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -85299,7 +85659,8 @@ const citiesList = [{
         "cityName": "St. Anthony",
         "iataCode": "YAY",
         "cityCode": "YAY",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "ST ANTHONY",
@@ -85661,7 +86022,8 @@ const citiesList = [{
         "cityName": "St. Catharines",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -85778,7 +86140,8 @@ const citiesList = [{
         "cityName": "St. John's",
         "iataCode": "YYT",
         "cityCode": "YYT",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -85965,7 +86328,8 @@ const citiesList = [{
         "cityName": "St. Paul",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -86222,7 +86586,8 @@ const citiesList = [{
         "cityName": "St. Stephen",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -86409,7 +86774,8 @@ const citiesList = [{
         "cityName": "Stellarton",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -86736,7 +87102,8 @@ const citiesList = [{
         "cityName": "Stephenville",
         "iataCode": "YJT",
         "cityCode": "YJT",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -87098,7 +87465,8 @@ const citiesList = [{
         "cityName": "Stettler",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -87390,7 +87758,8 @@ const citiesList = [{
         "cityName": "Stittsville",
         "iataCode": "YOW",
         "cityCode": "YOW",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "MACDONALD CARTIER INTL",
@@ -87577,7 +87946,8 @@ const citiesList = [{
         "cityName": "Stony Plain",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -87904,7 +88274,8 @@ const citiesList = [{
         "cityName": "Stratford",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -88091,7 +88462,8 @@ const citiesList = [{
         "cityName": "Strathmore",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -88348,7 +88720,8 @@ const citiesList = [{
         "cityName": "Sturgeon Falls",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -88640,7 +89013,8 @@ const citiesList = [{
         "cityName": "Sudbury",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -88932,7 +89306,8 @@ const citiesList = [{
         "cityName": "Summerside",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -89294,7 +89669,8 @@ const citiesList = [{
         "cityName": "Surrey",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -89446,7 +89822,8 @@ const citiesList = [{
         "cityName": "Sussex",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -89738,7 +90115,8 @@ const citiesList = [{
         "cityName": "Swift Current",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -89925,7 +90303,8 @@ const citiesList = [{
         "cityName": "Sydney",
         "iataCode": "YQY",
         "cityCode": "YQY",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J.A. DOUGLAS MCCURDY",
@@ -90287,7 +90666,8 @@ const citiesList = [{
         "cityName": "Taber",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -90509,7 +90889,8 @@ const citiesList = [{
         "cityName": "Tecumseh",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -90626,7 +91007,8 @@ const citiesList = [{
         "cityName": "Terrace",
         "iataCode": "YXT",
         "cityCode": "YXT",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "NORTHWEST REGIONAL",
@@ -90778,7 +91160,8 @@ const citiesList = [{
         "cityName": "Terrebonne",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -90965,7 +91348,8 @@ const citiesList = [{
         "cityName": "Thetford Mines",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -91082,7 +91466,8 @@ const citiesList = [{
         "cityName": "Thompson",
         "iataCode": "YTH",
         "cityCode": "YTH",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "THOMPSON",
@@ -91444,7 +91829,8 @@ const citiesList = [{
         "cityName": "Thornhill",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -91631,7 +92017,8 @@ const citiesList = [{
         "cityName": "Thunder Bay",
         "iataCode": "YQT",
         "cityCode": "YQT",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -91888,7 +92275,8 @@ const citiesList = [{
         "cityName": "Timmins",
         "iataCode": "YTS",
         "cityCode": "YTS",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "VICTOR M.POWER",
@@ -92110,7 +92498,8 @@ const citiesList = [{
         "cityName": "Toronto",
         "iataCode": "YTZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "BILLY BISHOP CITY A/P",
@@ -92297,7 +92686,8 @@ const citiesList = [{
         "cityName": "Trail",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -92554,7 +92944,8 @@ const citiesList = [{
         "cityName": "Trenton",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -92706,7 +93097,8 @@ const citiesList = [{
         "cityName": "Trois-Rivières",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -92858,7 +93250,8 @@ const citiesList = [{
         "cityName": "Truro",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -93185,7 +93578,8 @@ const citiesList = [{
         "cityName": "Tétreaultville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -93372,7 +93766,8 @@ const citiesList = [{
         "cityName": "Val d'Or",
         "iataCode": "YVO",
         "cityCode": "YVO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "VAL D'OR",
@@ -93734,7 +94129,8 @@ const citiesList = [{
         "cityName": "Valcartier",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -93991,7 +94387,8 @@ const citiesList = [{
         "cityName": "Vancouver",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -94143,7 +94540,8 @@ const citiesList = [{
         "cityName": "Vaudreuil",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -94400,7 +94798,8 @@ const citiesList = [{
         "cityName": "Vaughan",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -94587,7 +94986,8 @@ const citiesList = [{
         "cityName": "Vegreville",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -94879,7 +95279,8 @@ const citiesList = [{
         "cityName": "Vermilion",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -95136,7 +95537,8 @@ const citiesList = [{
         "cityName": "Vernon",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -95393,7 +95795,8 @@ const citiesList = [{
         "cityName": "Victoria",
         "iataCode": "YWH",
         "cityCode": "YYJ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INNER HARBOUR SPB",
@@ -95510,7 +95913,8 @@ const citiesList = [{
         "cityName": "Victoriaville",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -95662,7 +96066,8 @@ const citiesList = [{
         "cityName": "View Royal",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -95779,7 +96184,8 @@ const citiesList = [{
         "cityName": "Wainwright",
         "iataCode": "YYC",
         "cityCode": "YYC",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "CALGARY INTL",
@@ -96071,7 +96477,8 @@ const citiesList = [{
         "cityName": "Walkerton",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -96223,7 +96630,8 @@ const citiesList = [{
         "cityName": "Walnut Grove",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -96375,7 +96783,8 @@ const citiesList = [{
         "cityName": "Waterloo",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -96597,7 +97006,8 @@ const citiesList = [{
         "cityName": "Welland",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -96679,7 +97089,8 @@ const citiesList = [{
         "cityName": "Wendake",
         "iataCode": "YQB",
         "cityCode": "YQB",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "JEAN LESAGE INTL",
@@ -96901,7 +97312,8 @@ const citiesList = [{
         "cityName": "West Vancouver",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -97053,7 +97465,8 @@ const citiesList = [{
         "cityName": "Wetaskiwin",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -97380,7 +97793,8 @@ const citiesList = [{
         "cityName": "Westlock",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -97637,7 +98051,8 @@ const citiesList = [{
         "cityName": "Westmount",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -97824,7 +98239,8 @@ const citiesList = [{
         "cityName": "Weyburn",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -97941,7 +98357,8 @@ const citiesList = [{
         "cityName": "Whitby",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -98093,7 +98510,8 @@ const citiesList = [{
         "cityName": "White Point",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -98385,7 +98803,8 @@ const citiesList = [{
         "cityName": "White Rock",
         "iataCode": "YVR",
         "cityCode": "YVR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "INTERNATIONAL",
@@ -98502,7 +98921,8 @@ const citiesList = [{
         "cityName": "Whitecourt",
         "iataCode": "YEG",
         "cityCode": "YEA",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "EDMONTON INTL",
@@ -98829,41 +99249,43 @@ const citiesList = [{
         "cityName": "Whitehorse",
         "iataCode": "YXY",
         "cityCode": "YXY",
-        "airports": [{
-            "type": "location",
-            "subType": "AIRPORT",
-            "name": "ERIK NIELSEN INTL",
-            "detailedName": "WHITEHORSE/YT/CA:ERIK NIELSEN",
-            "timeZoneOffset": "-07:00",
-            "iataCode": "YXY",
-            "geoCode": {
-                "latitude": 60.70945,
-                "longitude": -135.0672
-            },
-            "address": {
-                "cityName": "WHITEHORSE",
-                "cityCode": "YXY",
-                "countryName": "CANADA",
-                "countryCode": "CA",
-                "stateCode": "YT",
-                "regionCode": "NAMER"
-            },
-            "distance": {
-                "value": 1,
-                "unit": "KM"
-            },
-            "analytics": {
-                "flights": {
-                    "score": 2
+        "airports": [
+            {
+                "type": "location",
+                "subType": "AIRPORT",
+                "name": "ERIK NIELSEN INTL",
+                "detailedName": "WHITEHORSE/YT/CA:ERIK NIELSEN",
+                "timeZoneOffset": "-07:00",
+                "iataCode": "YXY",
+                "geoCode": {
+                    "latitude": 60.70945,
+                    "longitude": -135.0672
                 },
-                "travelers": {
-                    "score": 1
-                }
-            },
-            "relevance": 107.23967,
-            "frenchLabel": "Aéroport international Erik-Nielsen de Whitehorse",
-            "englishLabel": "Whitehorse, Erik Nielsen International"
-        }]
+                "address": {
+                    "cityName": "WHITEHORSE",
+                    "cityCode": "YXY",
+                    "countryName": "CANADA",
+                    "countryCode": "CA",
+                    "stateCode": "YT",
+                    "regionCode": "NAMER"
+                },
+                "distance": {
+                    "value": 1,
+                    "unit": "KM"
+                },
+                "analytics": {
+                    "flights": {
+                        "score": 2
+                    },
+                    "travelers": {
+                        "score": 1
+                    }
+                },
+                "relevance": 107.23967,
+                "frenchLabel": "Aéroport international Erik-Nielsen de Whitehorse",
+                "englishLabel": "Whitehorse, Erik Nielsen International"
+            }
+        ]
     },
     {
         "id": "ChIJNVwK4lujgFMRACJ7KhU1AQU",
@@ -98875,7 +99297,8 @@ const citiesList = [{
         "cityName": "Williams Lake",
         "iataCode": "YWL",
         "cityCode": "YWL",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "WILLIAMS LAKE",
@@ -99237,7 +99660,8 @@ const citiesList = [{
         "cityName": "Windsor",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -99564,7 +99988,8 @@ const citiesList = [{
         "cityName": "Windsor",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -99681,7 +100106,8 @@ const citiesList = [{
         "cityName": "Winkler",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -99938,7 +100364,8 @@ const citiesList = [{
         "cityName": "Winnipeg",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -100265,7 +100692,8 @@ const citiesList = [{
         "cityName": "Wolfville",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -100557,7 +100985,8 @@ const citiesList = [{
         "cityName": "Woodstock",
         "iataCode": "YUL",
         "cityCode": "YMQ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "PIERRE E. TRUDEAU INTL",
@@ -100814,7 +101243,8 @@ const citiesList = [{
         "cityName": "Woodstock",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -101001,7 +101431,8 @@ const citiesList = [{
         "cityName": "Yarmouth",
         "iataCode": "YHZ",
         "cityCode": "YHZ",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "STANFIELD INTL",
@@ -101153,7 +101584,8 @@ const citiesList = [{
         "cityName": "Yellowknife",
         "iataCode": "YZF",
         "cityCode": "YZF",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "YELLOWKNIFE",
@@ -101515,7 +101947,8 @@ const citiesList = [{
         "cityName": "York",
         "iataCode": "YYZ",
         "cityCode": "YTO",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "LESTER B. PEARSON INTL",
@@ -101702,7 +102135,8 @@ const citiesList = [{
         "cityName": "Yorkton",
         "iataCode": "YWG",
         "cityCode": "YWG",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "J A RICHARDSON INTL",
@@ -101924,7 +102358,8 @@ const citiesList = [{
         "cityName": "Îles-de-la Madeleine",
         "iataCode": "YGR",
         "cityCode": "YGR",
-        "airports": [{
+        "airports": [
+            {
                 "type": "location",
                 "subType": "AIRPORT",
                 "name": "ILES DE LA MADELE",

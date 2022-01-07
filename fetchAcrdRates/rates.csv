@@ -112,7 +112,7 @@
 2018,2018-05-01,Canmore,AB,Canada,Canada,CA,200,CAD
 2018,2018-10-01,Canmore,AB,Canada,Canada,CA,142,CAD
 2018,2018-12-01,Canmore,AB,Canada,Canada,CA,200,CAD
-2018,2018-01-01,"Canton Orford",QC,Canada,Canada,CA,110,CAD
+2018,2018-01-01,Orford,QC,Canada,Canada,CA,110,CAD
 2018,2018-01-01,Cap-aux-Meules,QC,Canada,Canada,CA,110,CAD
 2018,2018-07-01,Cap-aux-Meules,QC,Canada,Canada,CA,136,CAD
 2018,2018-09-01,Cap-aux-Meules,QC,Canada,Canada,CA,110,CAD
@@ -472,9 +472,9 @@
 2018,2018-09-01,Moncton,NB,Canada,Canada,CA,137,CAD
 2018,2018-10-01,Moncton,NB,Canada,Canada,CA,132,CAD
 2018,2018-01-01,Mont-Laurier,QC,Canada,Canada,CA,115,CAD
-2018,2018-01-01,Mont-Orford,QC,Canada,Canada,CA,110,CAD
-2018,2018-06-01,Mont-Orford,QC,Canada,Canada,CA,123,CAD
-2018,2018-10-01,Mont-Orford,QC,Canada,Canada,CA,110,CAD
+2018,2018-01-01,Orford,QC,Canada,Canada,CA,110,CAD
+2018,2018-06-01,Orford,QC,Canada,Canada,CA,123,CAD
+2018,2018-10-01,Orford,QC,Canada,Canada,CA,110,CAD
 2018,2018-01-01,Montreal,QC,Canada,Canada,CA,164,CAD
 2018,2018-04-01,Montreal,QC,Canada,Canada,CA,165,CAD
 2018,2018-05-01,Montreal,QC,Canada,Canada,CA,167,CAD
@@ -3051,7 +3051,7 @@
 2019,2019-06-01,Canmore,AB,Canada,Canada,CA,200,CAD
 2019,2019-10-01,Canmore,AB,Canada,Canada,CA,120,CAD
 2019,2019-12-01,Canmore,AB,Canada,Canada,CA,200,CAD
-2019,2019-01-01,"Canton Orford",QC,Canada,Canada,CA,110,CAD
+2019,2019-01-01,Orford,QC,Canada,Canada,CA,110,CAD
 2019,2019-01-01,Caraquet,NB,Canada,Canada,CA,118,CAD
 2019,2019-05-01,Caraquet,NB,Canada,Canada,CA,124,CAD
 2019,2019-06-01,Caraquet,NB,Canada,Canada,CA,137,CAD
@@ -3375,9 +3375,9 @@
 2019,2019-07-01,Moncton,NB,Canada,Canada,CA,151,CAD
 2019,2019-09-01,Moncton,NB,Canada,Canada,CA,146,CAD
 2019,2019-01-01,Mont-Laurier,QC,Canada,Canada,CA,114,CAD
-2019,2019-01-01,Mont-Orford,QC,Canada,Canada,CA,110,CAD
-2019,2019-06-01,Mont-Orford,QC,Canada,Canada,CA,127,CAD
-2019,2019-11-01,Mont-Orford,QC,Canada,Canada,CA,110,CAD
+2019,2019-01-01,Orford,QC,Canada,Canada,CA,110,CAD
+2019,2019-06-01,Orford,QC,Canada,Canada,CA,127,CAD
+2019,2019-11-01,Orford,QC,Canada,Canada,CA,110,CAD
 2019,2019-01-01,Montréal,QC,Canada,Canada,CA,176,CAD
 2019,2019-05-01,Montréal,QC,Canada,Canada,CA,200,CAD
 2019,2019-11-01,Montréal,QC,Canada,Canada,CA,176,CAD
@@ -5578,9 +5578,9 @@
 2020,2020-04-01,Canmore,AB,Canada,Canada,CA,200,CAD
 2020,2020-10-01,Canmore,AB,Canada,Canada,CA,175,CAD
 2020,2020-12-01,Canmore,AB,Canada,Canada,CA,181,CAD
-2020,2020-01-01,"Canton Orford",QC,Canada,Canada,CA,116,CAD
-2020,2020-06-01,"Canton Orford",QC,Canada,Canada,CA,143,CAD
-2020,2020-10-01,"Canton Orford",QC,Canada,Canada,CA,116,CAD
+2020,2020-01-01,Orford,QC,Canada,Canada,CA,116,CAD
+2020,2020-06-01,Orford,QC,Canada,Canada,CA,143,CAD
+2020,2020-10-01,Orford,QC,Canada,Canada,CA,116,CAD
 2020,2020-01-01,Caraquet,NB,Canada,Canada,CA,118,CAD
 2020,2020-05-01,Caraquet,NB,Canada,Canada,CA,124,CAD
 2020,2020-06-01,Caraquet,NB,Canada,Canada,CA,137,CAD
@@ -5919,7 +5919,7 @@
 2020,2020-05-01,Montmagny,QC,Canada,Canada,CA,146,CAD
 2020,2020-06-01,Montmagny,QC,Canada,Canada,CA,151,CAD
 2020,2020-10-01,Montmagny,QC,Canada,Canada,CA,129,CAD
-2020,2020-01-01,Mont-Orford,QC,Canada,Canada,CA,127,CAD
+2020,2020-01-01,Orford,QC,Canada,Canada,CA,127,CAD
 2020,2020-01-01,Montréal,QC,Canada,Canada,CA,192,CAD
 2020,2020-04-01,Montréal,QC,Canada,Canada,CA,200,CAD
 2020,2020-11-01,Montréal,QC,Canada,Canada,CA,192,CAD
@@ -8083,9 +8083,9 @@
 2021,2021-04-01,Canmore,AB,Canada,Canada,CA,200,CAD
 2021,2021-10-01,Canmore,AB,Canada,Canada,CA,175,CAD
 2021,2021-12-01,Canmore,AB,Canada,Canada,CA,181,CAD
-2021,2021-01-01,"Canton Orford",QC,Canada,Canada,CA,116,CAD
-2021,2021-06-01,"Canton Orford",QC,Canada,Canada,CA,143,CAD
-2021,2021-10-01,"Canton Orford",QC,Canada,Canada,CA,116,CAD
+2021,2021-01-01,Orford,QC,Canada,Canada,CA,116,CAD
+2021,2021-06-01,Orford,QC,Canada,Canada,CA,143,CAD
+2021,2021-10-01,Orford,QC,Canada,Canada,CA,116,CAD
 2021,2021-01-01,Caraquet,NB,Canada,Canada,CA,118,CAD
 2021,2021-05-01,Caraquet,NB,Canada,Canada,CA,124,CAD
 2021,2021-06-01,Caraquet,NB,Canada,Canada,CA,137,CAD
@@ -8424,7 +8424,7 @@
 2021,2021-05-01,Montmagny,QC,Canada,Canada,CA,146,CAD
 2021,2021-06-01,Montmagny,QC,Canada,Canada,CA,151,CAD
 2021,2021-10-01,Montmagny,QC,Canada,Canada,CA,129,CAD
-2021,2021-01-01,Mont-Orford,QC,Canada,Canada,CA,127,CAD
+2021,2021-01-01,Orford,QC,Canada,Canada,CA,127,CAD
 2021,2021-01-01,Montréal,QC,Canada,Canada,CA,192,CAD
 2021,2021-04-01,Montréal,QC,Canada,Canada,CA,200,CAD
 2021,2021-11-01,Montréal,QC,Canada,Canada,CA,192,CAD

@@ -34,9 +34,11 @@ const calculatorRatesForRange = (departureDate, returnDate, rates) => {
       returnDate.endOf("day"))
       .splitBy({days: 1}).map(d => d.start.toISODate())
 
-  // remove the last date, since we won't need accommodation on that day
-
-  dates.pop();
+  // remove the last date, since we won't need accommodation on that day. If same day travel
+  // don't remove the date because we need that rate for day hotel price.
+  if(dates.length > 1){
+      dates.pop();
+  }
 
   let result = []
 
